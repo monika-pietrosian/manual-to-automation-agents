@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Artur",
+    "points": 811
+  },
+  {
+    "id": 2,
+    "name": "Maciej",
+    "points": 151
+  },
+  {
+    "id": 3,
+    "name": "Ada Lovelace",
+    "points": 5
+  },
+  {
+    "id": 4,
+    "name": "Ada Lovelace",
+    "points": 0
+  },
+  {
+    "id": 5,
+    "name": "Ada Lovelace",
+    "points": 9
+  }
+]
