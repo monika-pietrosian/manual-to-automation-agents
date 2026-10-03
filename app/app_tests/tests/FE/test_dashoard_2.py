@@ -19,7 +19,7 @@ async def test_adding_a_student_shows_it_in_the_list_and_the_session_picker(
     await dashboard_page.get_by_role("button", name="Add").click()
 
     row = dashboard_page.locator(".student-row", has_text=unique_name)
-    await expect(row).to_be_visible
+    await expect(row).to_be_visible()
     await expect(row.locator(".s-points")).to_have_text("0 pts")
 
     await expect(dashboard_page.locator("#active-student option", has_text=unique_name)).to_have_count(1)
